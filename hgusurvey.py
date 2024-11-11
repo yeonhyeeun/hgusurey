@@ -70,7 +70,7 @@ if st.button("제출"):
         if more_info:
             st.write(f"**더보기**: {more_info}")
     else:
-        st.error("제목, 바로가기 링크, 문의 내용은 필수 입력 사항입니다.")
+        st.error("제목, 바로가기 링크, 문의처는 필수 입력 사항입니다.")
         
 # 하단 Footer
 st.write("---")
